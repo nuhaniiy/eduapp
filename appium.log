@@ -1,29 +1,29 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 52397
-[35m[Appium][39m   tmpDir: C:\Users\NURULH~1\AppData\Local\Temp\\Katalon\Appium\Temp1728918191270
-[35m[Appium][39m   chromedriverPort: 52398
+[35m[Appium][39m   port: 59774
+[35m[Appium][39m   tmpDir: C:\Users\NURULH~1\AppData\Local\Temp\\Katalon\Appium\Temp1729044028527
+[35m[Appium][39m   chromedriverPort: 59775
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 52398
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:52397
+[35m[Appium][39m   chromedriverPort: 59775
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:59774
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m12 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m17 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","noReset":true,"deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"14","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":52410},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"14","appium:systemPort":52410,"appium:udid":"emulator-5554"}]}}[39m
-[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","noReset":true,"deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"14","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":52410},null,{"firstMatch":[{"appium:app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"14","appium:systemPort":52410,"appium:udid":"emulator-5554"}]}]
-[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1728918195380 (22:03:15 GMT+0700 (Western Indonesia Time))
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"14","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","platform":"ANDROID","systemPort":8209},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"14","appium:systemPort":8209,"appium:udid":"emulator-5554"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"14","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","platform":"ANDROID","systemPort":8209},null,{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"14","appium:systemPort":8209,"appium:udid":"emulator-5554"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1729044031826 (09:00:31 GMT+0700 (Western Indonesia Time))
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   platform
 [35m[BaseDriver][39m   chromedriverPort
@@ -33,16 +33,15 @@
 [debug] [35m[BaseDriver][39m   "alwaysMatch": {
 [debug] [35m[BaseDriver][39m     "appium:platform": "ANDROID",
 [debug] [35m[BaseDriver][39m     "platformName": "android",
-[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 52398,
-[debug] [35m[BaseDriver][39m     "appium:app": "C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk",
+[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 59775,
+[debug] [35m[BaseDriver][39m     "appium:appActivity": ".Settings",
+[debug] [35m[BaseDriver][39m     "appium:appPackage": "com.android.settings",
 [debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true,
 [debug] [35m[BaseDriver][39m     "appium:automationName": "uiautomator2",
 [debug] [35m[BaseDriver][39m     "appium:deviceName": "emulator-5554 (sdk_gphone64_x86_64 - Android 14)",
-[debug] [35m[BaseDriver][39m     "appium:fullReset": false,
 [debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 1800,
-[debug] [35m[BaseDriver][39m     "appium:noReset": true,
 [debug] [35m[BaseDriver][39m     "appium:platformVersion": "14",
-[debug] [35m[BaseDriver][39m     "appium:systemPort": 52410,
+[debug] [35m[BaseDriver][39m     "appium:systemPort": 8209,
 [debug] [35m[BaseDriver][39m     "appium:udid": "emulator-5554"
 [debug] [35m[BaseDriver][39m   },
 [debug] [35m[BaseDriver][39m   "firstMatch": [
@@ -51,9 +50,8 @@
 [debug] [35m[BaseDriver][39m }
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb
-[35m[BaseDriver][39m Using local app 'C:\Users\Nurul Handayani\Downloads\Calculator_v8.1 (403424005)_apkpure.com.apk'
-[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[35m[BaseDriver][39m Session created with session id: 8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d
+[35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk' (newest first):
 [35m[ADB][39m     C:/Users/Nurul Handayani/AppData/Local/Android/Sdk/build-tools/34.0.0
 [35m[ADB][39m Using 'adb.exe' from 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe'
@@ -74,10 +72,7 @@
 [debug] [35m[ADB][39m Device API level: 34
 [35m[UiAutomator2][39m Relaxing hidden api policy
 [debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
-[debug] [35m[AndroidDriver][39m Parsing package and activity from app manifest
-[35m[ADB][39m Package name: 'com.google.android.calculator'
-[35m[ADB][39m Main activity name: 'com.android.calculator2.Calculator'
-[debug] [35m[AndroidDriver][39m Parsed package and activity are: com.google.android.calculator/com.android.calculator2.Calculator
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
 [debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
 [debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
 [debug] [35m[AndroidDriver][39m Pushing settings apk to device...
@@ -93,9 +88,9 @@
 [debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
 [debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
 [debug] [35m[Logcat][39m Starting logs capture with command: 'C:\\Users\\Nurul Handayani\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe' -P 5037 -s emulator-5554 logcat -v threadtime
-[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to local port 52410
-[debug] [35m[ADB][39m Forwarding system: 52410 to device: 6790
-[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:52410 tcp:6790'
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to local port 8209
+[debug] [35m[ADB][39m Forwarding system: 8209 to device: 6790
+[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8209 tcp:6790'
 [debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
 [debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
 [debug] [35m[ADB][39m 'io.appium.uiautomator2.server' is installed
@@ -132,301 +127,235 @@
 [35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
 [debug] [35m[ADB][39m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
 [debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
-[debug] [35m[ADB][39m Checking app cert for C:\Users\Nurul Handayani\Downloads\Calculator_v8.1 (403424005)_apkpure.com.apk
-[debug] [35m[ADB][39m Starting apksigner: C:\\Katalon_Studio_Windows_64-8.4.1\\jre\\bin\\java.exe -Xmx1024M -Xss1m -jar 'C:\\Users\\Nurul Handayani\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar' verify --print-certs 'C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk'
-[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: CN=calculator_google, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
-[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: 90e8b84c91ae47530018af7fc35a943716fc8d2271f03548a1833be0166e2066
-[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: af24b7f3eff9d97ae6d8a84664e0e98888636110
-[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: b9620ff646b8fa4b575bce9937d188b8
-[debug] [35m[ADB][39m Source Stamp Signer certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
-[debug] [35m[ADB][39m Source Stamp Signer certificate SHA-256 digest: 3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d
-[debug] [35m[ADB][39m Source Stamp Signer certificate SHA-1 digest: b1af3a0bf998aeede1a8716a539e5a59da1d86d6
-[debug] [35m[ADB][39m Source Stamp Signer certificate MD5 digest: 577b8a9fbc7e308321aec6411169d2fb
-[debug] [35m[ADB][39m 
-[35m[ADB][39m 'C:\Users\Nurul Handayani\Downloads\Calculator_v8.1 (403424005)_apkpure.com.apk' is signed with a non-default certificate
-[debug] [35m[ADB][39m Getting install status for com.google.android.calculator
-[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.google.android.calculator'
-[debug] [35m[ADB][39m 'com.google.android.calculator' is not installed
-[debug] [35m[ADB][39m App 'C:\Users\Nurul Handayani\Downloads\Calculator_v8.1 (403424005)_apkpure.com.apk' is not installed
-[debug] [35m[ADB][39m Installing 'C:\Users\Nurul Handayani\Downloads\Calculator_v8.1 (403424005)_apkpure.com.apk'
-[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 help'
-[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 features'
-[35m[ADB][39m The application at 'C:\Users\Nurul Handayani\Downloads\Calculator_v8.1 (403424005)_apkpure.com.apk' will not be cached, because the device under test has confirmed the support of streamed installs
-[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 install -g 'C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk''
-[35m[ADB][39m The installation of 'Calculator_v8.1 (403424005)_apkpure.com.apk' took 1335ms
-[debug] [35m[ADB][39m Install command stdout: Performing Streamed Install
-[debug] [35m[ADB][39m Success
+[debug] [35m[UiAutomator2][39m No app capability. Assuming it is already on the device
+[debug] [35m[ADB][39m Getting install status for com.android.settings
+[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.android.settings'
+[debug] [35m[ADB][39m 'com.android.settings' is installed
+[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.android.settings'
+[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.android.settings'
+[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.android.settings'
+[debug] [35m[ADB][39m Retrieving requested permissions
+[debug] [35m[ADB][39m Retrieved 284 permissions from requested group
+[debug] [35m[ADB][39m Retrieving granted permissions
+[debug] [35m[ADB][39m Retrieved 178 permissions from install,runtime groups
+[debug] [35m[ADB][39m Granting permissions ["android.wildlife.permission.VPN_APP_EXCLUSION_LAUNCH","android.wildlife.permission.ADVANCED_VPN_CONFIG","android.launcher.permission.READ_SETTINGS","android.launcher.permission.WRITE_SETTINGS"] to 'com.android.settings'
+[debug] [35m[ADB][39m Got the following command chunks to execute: [["pm","grant","com.android.settings","android.wildlife.permission.VPN_APP_EXCLUSION_LAUNCH",";","pm","grant","com.android.settings","android.wildlife.permission.ADVANCED_VPN_CONFIG",";","pm","grant","com.android.settings","android.launcher.permission.READ_SETTINGS",";","pm","grant","com.android.settings","android.launcher.permission.WRITE_SETTINGS",";"]]
+[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm grant com.android.settings android.wildlife.permission.VPN_APP_EXCLUSION_LAUNCH ; pm grant com.android.settings android.wildlife.permission.ADVANCED_VPN_CONFIG ; pm grant com.android.settings android.launcher.permission.READ_SETTINGS ; pm grant com.android.settings android.launcher.permission.WRITE_SETTINGS ;'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.android.settings' application (stop and clear)
 [debug] [35m[UiAutomator2][39m Performing shallow cleanup of automation leftovers
-[debug] [35m[UiAutomator2][39m No obsolete sessions have been detected (socket hang up)
+[debug] [35m[UiAutomator2][39m The following obsolete sessions are still running: ["7c1b3e42-6747-436c-9139-e465ed29182d"]
+[debug] [35m[UiAutomator2][39m Cleaning up 1 obsolete session
 [debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
 [35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
 [35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Nurul Handayani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Nurul Handayani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
 [debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:52410/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8209/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:52410/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8209/wd/hub/status] with no body
+[35m[WD Proxy][39m socket hang up
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8209/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[Instrumentation][39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:52410/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8209/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:52410/wd/hub/status] with no body
-[35m[WD Proxy][39m socket hang up
-[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:52410/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8209/wd/hub/status] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
-[debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 4373ms
+[debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 4352ms
 [debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
-[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:52410/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":52398,"app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":52410,"udid":"emulator-5554"},"platformName":"android","chromedriverPort":52398,"app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":52410,"udid":"emulator-5554","deviceUDID":"emula...
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":52398,"app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":52410,"udid":"emulator-5554"},"platformName":"android","chromedriverPort":52398,"app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","...
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8209/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":59775,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","newCommandTimeout":1800,"platformVersion":"14","systemPort":8209,"udid":"emulator-5554"},"platformName":"android","chromedriverPort":59775,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554","newCommandTimeout":1800,"platformVersion":"14","systemPort":8209,"udid":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":59775,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","newCommandTimeout":1800,"platformVersion":"14","systemPort":8209,"udid":"emulator-5554"},"platformName":"android","chromedriverPort":59775,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554","newCommandTimeout":1800,"platformVersion":"14","systemPort":8209,"udid":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":"a63182e2-f306-4ab5-bc6c...
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/appium/device/info] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":{"androidId":"90090ffaec207760","apiVersion":"34","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-50,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapab...
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/appium/device/info] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":{"androidId":"90090ffaec207760","apiVersion":"34","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-50,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":4300,"linkUpstreamBandwidthKbps":1800,"networkCapabil...
 [debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
-[35m[UiAutomator2][39m Starting 'com.google.android.calculator/com.android.calculator2.Calculator and waiting for 'com.google.android.calculator/com.android.calculator2.Calculator'
-[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.google.android.calculator/com.android.calculator2.Calculator -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
-[debug] [35m[ADB][39m Waiting up to 20000ms for activity matching pkg: 'com.google.android.calculator' and activity: 'com.android.calculator2.Calculator' to be focused
-[debug] [35m[ADB][39m Possible activities, to be checked: 'com.android.calculator2.Calculator', 'com.google.android.calculator.com.android.calculator2.Calculator'
-[debug] [35m[ADB][39m Getting focused package and activity
-[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
-[debug] [35m[ADB][39m Found package: 'com.google.android.calculator' and fully qualified activity name : 'com.android.calculator2.Calculator'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/appium/device/pixel_ratio] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":2.75}
+[35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.android.settings/.Settings -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/appium/device/pixel_ratio] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":2.75}
 [debug] [35m[WD Proxy][39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/appium/device/system_bars] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":{"statusBar":66}}
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/appium/device/system_bars] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":{"statusBar":66}}
 [debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
-[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/window/current/size] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":{"height":2154,"width":1080}}
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb added to master session list
-[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1728918210143 (22:03:30 GMT+0700 (Western Indonesia Time))
-[debug] [35m[W3C (9e6d42d2)][39m Cached the protocol value 'W3C' for the new session 9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":52398,"app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":52410,"udid":"emulator-5554"},"platformName":"android","chromedriverPort":52398,"app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":52410,"udid":"emulator-5554","deviceUDID":"emulator-5554","appP...
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m14768 ms - 1365[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/window/current/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":{"height":2154,"width":1080}}
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1729044046709 (09:00:46 GMT+0700 (Western Indonesia Time))
+[debug] [35m[W3C (8ba7ddfd)][39m Cached the protocol value 'W3C' for the new session 8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":59775,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","newCommandTimeout":1800,"platformVersion":"14","systemPort":8209,"udid":"emulator-5554"},"platformName":"android","chromedriverPort":59775,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554","newCommandTimeout":1800,"platformVersion":"14","systemPort":8209,"udid":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":34,"deviceScreenSize":"1080x2220","deviceScreenDensity":440,"deviceModel":"sdk_gphone64_x86_64","deviceManufacture...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m14886 ms - 1194[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.getSession() with args: ["9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
+[debug] [35m[W3C (8ba7ddfd)][39m Calling AppiumDriver.getSession() with args: ["8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d"]
 [debug] [35m[UiAutomator2][39m Getting session details from server to mix in
 [debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
-[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":{"lastScrollData":null}}
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":52398,"app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":52410,"udid":"emulator-5554"},"platformName":"android","chromedriverPort":52398,"app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":52410,"udid":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.goo...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb [39m[32m200[39m [90m52 ms - 1319[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":{"lastScrollData":null}}
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":59775,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","newCommandTimeout":1800,"platformVersion":"14","systemPort":8209,"udid":"emulator-5554"},"platformName":"android","chromedriverPort":59775,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554","newCommandTimeout":1800,"platformVersion":"14","systemPort":8209,"udid":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":34,"deviceScreenSize":"1080x2220","deviceScreenDensity":440,"deviceModel":"sdk_gphone64_x86_64","deviceManufacturer":"Google","pix...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d [39m[32m200[39m [90m36 ms - 1148[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.getSession() with args: ["9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
+[debug] [35m[W3C (8ba7ddfd)][39m Calling AppiumDriver.getSession() with args: ["8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d"]
 [debug] [35m[UiAutomator2][39m Getting session details from server to mix in
 [debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
-[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":{"lastScrollData":null}}
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":52398,"app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":52410,"udid":"emulator-5554"},"platformName":"android","chromedriverPort":52398,"app":"C:\\Users\\Nurul Handayani\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"14","systemPort":52410,"udid":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.goo...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb [39m[32m200[39m [90m35 ms - 1319[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":{"lastScrollData":null}}
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":59775,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","newCommandTimeout":1800,"platformVersion":"14","systemPort":8209,"udid":"emulator-5554"},"platformName":"android","chromedriverPort":59775,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554","newCommandTimeout":1800,"platformVersion":"14","systemPort":8209,"udid":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":34,"deviceScreenSize":"1080x2220","deviceScreenDensity":440,"deviceModel":"sdk_gphone64_x86_64","deviceManufacturer":"Google","pix...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d [39m[32m200[39m [90m26 ms - 1148[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
+[debug] [35m[W3C (8ba7ddfd)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d"]
 [debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":60000}}
 [debug] [35m[BaseDriver][39m Set implicit wait to 60000ms
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.timeouts() result: null
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/timeouts [39m[32m200[39m [90m7 ms - 14[39m
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/timeouts [39m[32m200[39m [90m6 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (9e6d42d2)][39m Driver proxy active, passing request on via HTTP proxy
-[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source' to command name 'getPageSource'
-[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/source] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2154\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.google.android.calculator\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2154]\" displayed=\"true\">\r\n    <android.widget.FrameLayout index=\"0\" package=\"com.google.android.calculator\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2154]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" p...
-[35m[WD Proxy][39m Replacing sessionId 062f0cac-e831-4880-86c3-8b9bb89a603f with 9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source [39m[32m200[39m [90m640 ms - 19688[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.getScreenshot() with args: ["9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
+[debug] [35m[W3C (8ba7ddfd)][39m Calling AppiumDriver.getScreenshot() with args: ["8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d"]
 [debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
-[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/screenshot] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N1nYFzlmfbx68xIGhWrd9lyL3LvvQA2LoCNwRATSkJCNoUk5E2BZDeb\nQNomIbCEAIGEloSlJIRmTDPuHfeKe5Vk9d6lae8H2WPJlqxiaUZH8/99QTN6znPuMx4PPtc8xTia\nXewWAAAAAACAiVl8XQAAAAAAAMDVIuAAAAAAAACmR8ABAAAAAABMj4ADAAAAAACYHgEHAAAAAAAw\nPQIOAAAAAABgegQcAAAAAADA9Ag4AAAAAACA6RFwAAAAAAAA0yPgAAAAAAAApkfAAQAAAAAATI+A\nAwAAAAAAmF6ArwswA7fbraLCAm3ZsF4njh1WSVFxk+0sVosSEpM0cuw4jZswWSGhoTIMw8vVAgAA\nAADgf4yj2cVuXxfRVTnsdi1/9y0d2LtbTodTbnfrXyrDMGQLCdbsuQs0efpMgg4AAAAAADoRAUcT\nXC6XXn35BZ08drRNoUZTLgQbj/z+cVkszAhC1+R2u+VyOuV0OS8L8ywWi6wBVlksVlmtVh9WCQAA\ngI5UU12t3OwslZeXqaqyUtXV1QoJCVFoWJjCwyOUmJyi4JAQX5fZ4UqKixQVHePrMtAJmKJyibOn\nTupvf31WLperQ/q7cKO4Z+d2jZ80pUP6ROfLTD+r559+ss3HGYahwUOHaek9X1ZgYFAnVNZx3G63\nnA6HampqVFNdreKiQpWWlqiosEB1tXWSJIvFUEhIqGLj4xURGamo6BjZbMEKstkIOwAAAEwmKzND\np04c06kTJ5STdU4V5eUtHtMjPFxJKT3Vf+BA9R80RCk9e3mh0s6zbfNGFRUW6Iabb/V1KegEjOBo\nYNlb/9Lu7duuetRGU0LDwvSf...
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N1nYFzlmfbx68xIGhWrd9lyL3LvvQA2LoCNwRATSkJCNoUk5E2BZDeb\nQNomIbCEAIGEloSlJIRmTDPuHfeKe5Vk9d6lae8H2WPJlqxiaUZH8/99QTN6znPuMx4PPtc8xTia\nXewWAAAAAACAiVl8XQAAAAAAAMDVIuAAAAAAAACmR8ABAAAAAABMj4ADAAAAAACYHgEHAAAAAAAw\nPQIOAAAAAABgegQcAAAAAADA9Ag4AAAAAACA6RFwAAAAAAAA0yPgAAAAAAAApkfAAQAAAAAATI+A\nAwAAAAAAmF6ArwswA7fbraLCAm3ZsF4njh1WSVFxk+0sVosSEpM0cuw4jZswWSGhoTIMw8vVAgAA\nAADgf4yj2cVuXxfRVTnsdi1/9y0d2LtbTodTbnfrXyrDMGQLCdbsuQs0efpMgg4AAAAAADoRAUcT\nXC6XXn35BZ08drRNoUZTLgQbj/z+cVkszAhC1+R2u+VyOuV0OS8L8ywWi6wBVlksVlmtVh9WCQAA\ngI5UU12t3OwslZeXqaqyUtXV1QoJCVFoWJjCwyOUmJyi4JAQX5fZ4UqKixQVHePrMtAJmKJyibOn\nTupvf31WLperQ/q7cKO4Z+d2jZ80pUP6ROfLTD+r559+ss3HGYahwUOHaek9X1ZgYFAnVNZx3G63\nnA6HampqVFNdreKiQpWWlqiosEB1tXWSJIvFUEhIqGLj4xURGamo6BjZbMEKstkIOwAAAEwmKzND\np04c06kTJ5STdU4V5eUtHtMjPFxJKT3Vf+BA9R80RCk9e3mh0s6zbfNGFRUW6Iabb/V1KegEjOBo\nYNlb/9Lu7duuetRGU0LDwvSfv/iNJKmwIF+xcfEdfg50jPQzp/Xin5+66n7+65f/o5DQ0A6oqOM5\nHQ6Vl5...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/screenshot [39m[32m200[39m [90m1601 ms - 150934[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N19fNTVnf/99+R2AoSQG4EMEm6ChJAEwUSlkChUUSqBautNhV6LlrqK\na/vz2qvtD/bXbtfd61pYbStrW6mtXaWtWC1WCwRvULESoGoslhABIdwkOEFJSMJAkkkyM9cfaUYi\nCcx3Mt+ZfCev5+Pho8zkfM858w2mft8553NsTU0unwAAAAAAACwsJtITAAAAAAAA6C8CDgAAAAAA\nYHkEHAAAAAAAwPIIOAAAAAAAgOURcAAAAAAAAMsj4AAAAAAAAJZHwAEAAAAAACyPgAMAAAAAAFge\nAQcAAAAAALA8Ag4AAAAAAGB5BBwAAAAAAMDyCDgAAAAAAIDlxUV6AsC5fD6f6uvr9dZb27R//z6d\nOnWq13axsbEaNWq0CgsLdfXVMzVkyBDZbLYwzxYAAAAAMFDYmppcvkhPAujo6NCGDX/QX//6vjo7\nO+XzBf7X0mazyW5P0pe+9CWVlFxD0AEAAAAAgxABByLK6/XqV796Qvv37zcUavSmO9j48Y8fVUyM\n9XZf+Xw+eTwe/z/n3o+YGJtiY+MUGxur2NjYCM4SAAAA0aK1tUVOZ51On27W2bNn1dLSqiFDkjR0\n6FANH54ihyNTSUlDIj3NkDt16pTS0tLCMtYrr7x8wa9PmnSZJk2aFJa5DAZsUUHEVFdX6+c//6m8\nXm9I+usOBN599x3NnPmFkPRpNp/Pp87OTrW1tamlpUWnTjWoqalJ9fX1crvdkqSYmBgNGTJEl1wy\nUikpKUpLS5PdbldiYiJhBwAAAAJWW1ujjz76SIcOHdTx4x/L5Tp90WuSk4fr0kvHaNKky5STk6NL\nLx0bhpmaZ/v2t1VfX69bbvlK...
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N19fNTVnf/99+R2AoSQG4EMEm6ChJAEwUSlkChUUSqBautNhV6LlrqK\na/vz2qvtD/bXbtfd61pYbStrW6mtXaWtWC1WCwRvULESoGoslhABIdwkOEFJSMJAkkkyM9cfaUYi\nCcx3Mt+ZfCev5+Pho8zkfM858w2mft8553NsTU0unwAAAAAAACwsJtITAAAAAAAA6C8CDgAAAAAA\nYHkEHAAAAAAAwPIIOAAAAAAAgOURcAAAAAAAAMsj4AAAAAAAAJZHwAEAAAAAACyPgAMAAAAAAFge\nAQcAAAAAALA8Ag4AAAAAAGB5BBwAAAAAAMDyCDgAAAAAAIDlxUV6AsC5fD6f6uvr9dZb27R//z6d\nOnWq13axsbEaNWq0CgsLdfXVMzVkyBDZbLYwzxYAAAAAMFDYmppcvkhPAujo6NCGDX/QX//6vjo7\nO+XzBf7X0mazyW5P0pe+9CWVlFxD0AEAAAAAgxABByLK6/XqV796Qvv37zcUavSmO9j48Y8fVUyM\n9XZf+Xw+eTwe/z/n3o+YGJtiY+MUGxur2NjYCM4SAAAA0aK1tUVOZ51On27W2bNn1dLSqiFDkjR0\n6FANH54ihyNTSUlDIj3NkDt16pTS0tLCMtYrr7x8wa9PmnSZJk2aFJa5DAZsUUHEVFdX6+c//6m8\nXm9I+usOBN599x3NnPmFkPRpNp/Pp87OTrW1tamlpUWnTjWoqalJ9fX1crvdkqSYmBgNGTJEl1wy\nUikpKUpLS5PdbldiYiJhBwAAAAJWW1ujjz76SIcOHdTx4x/L5Tp90WuSk4fr0kvHaNKky5STk6NL\nLx0bhpmaZ/v2t1VfX69bbvlKWMa7eMBxUA888O2wzGUwIOBARDz33LP6y1/+0u9VG73ZtGmTP+A4\nefKkLr...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/screenshot [39m[32m200[39m [90m1152 ms - 182172[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '1' or . = '1') and @resource-id = 'com.google.android.calculator:id/digit_1']"}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.Button' and (@text = '1' or . = '1') and @resource-id = 'com.google.android.calculator:id/digit_1']","9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.Button' and (@text = '1' or . = '1') and @resource-id = 'com.google.android.calculator:id/digit_1']","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":[{"ELEMENT":"00000000-0000-011d-ffff-ffff00000061","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff00000061"}]}
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff00000061","ELEMENT":"00000000-0000-011d-ffff-ffff00000061"}]
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements [39m[32m200[39m [90m1706 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and (@text = '' or . = '')]"}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.ImageView' and (@text = '' or . = '')]","9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.ImageView' and (@text = '' or . = '')]","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":[{"ELEMENT":"00000000-0000-011d-ffff-ffff0000006e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff0000006e"},{"ELEMENT":"00000000-0000-011d-ffff-ffff00000025","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff00000025"}]}
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff0000006e","ELEMENT":"00000000-0000-011d-ffff-ffff0000006e"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff00000025","ELEMENT":"00000000-0000-011d-ffff-ffff00000025"}]
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements [39m[32m200[39m [90m351 ms - 267[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements[39m
-[35m[HTTP][39m [90m{"using":"accessibility id","value":"More options"}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.findElements() with args: ["accessibility id","More options","9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/elements] with body: {"strategy":"accessibility id","selector":"More options","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":[{"ELEMENT":"00000000-0000-011d-ffff-ffff0000006e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff0000006e"}]}
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff0000006e","ELEMENT":"00000000-0000-011d-ffff-ffff0000006e"}]
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements [39m[32m200[39m [90m70 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (9e6d42d2)][39m Driver proxy active, passing request on via HTTP proxy
-[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source' to command name 'getPageSource'
-[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/source] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2154\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.google.android.calculator\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[508,210][1047,792]\" displayed=\"true\">\r\n    <android.widget.FrameLayout index=\"0\" package=\"com.google.android.calculator\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[508,210][1047,792]\" displayed=\"true\">\r\n      <android.widget.ListView index=\"0\...
-[35m[WD Proxy][39m Replacing sessionId 062f0cac-e831-4880-86c3-8b9bb89a603f with 9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source [39m[32m200[39m [90m143 ms - 8777[39m
+[debug] [35m[W3C (8ba7ddfd)][39m Calling AppiumDriver.getWindowRect() with args: ["8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d"]
+[debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
+[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/window/current/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":{"height":2154,"width":1080}}
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.getWindowRect() result: {"width":1080,"height":2154,"x":0,"y":0}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/window/rect [39m[32m200[39m [90m37 ms - 50[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/appium/device/system_bars[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.getScreenshot() with args: ["9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
+[debug] [35m[W3C (8ba7ddfd)][39m Calling AppiumDriver.getSystemBars() with args: ["8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d"]
+[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window windows'
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.getSystemBars() result: {"statusBar":{"visible":true,"x":0,"y":0,"width":null,"height":1},"navigationBar":{"visible":true,"x":0,"y":0,"width":null,"height":1}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/appium/device/system_bars [39m[32m200[39m [90m222 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.samsung.ecomm"}[39m
+[debug] [35m[W3C (8ba7ddfd)][39m Calling AppiumDriver.activateApp() with args: ["com.samsung.ecomm",null,null,null,"8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d"]
+[debug] [35m[AndroidDriver][39m Activating 'com.samsung.ecomm' with 'adb shell monkey -p com.samsung.ecomm -c android.intent.category.LAUNCHER 1' command
+[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell monkey -p com.samsung.ecomm -c android.intent.category.LAUNCHER 1'
+[debug] [35m[AndroidDriver][39m Command stdout: bash arg: -p
+[debug] [35m[AndroidDriver][39m   bash arg: com.samsung.ecomm
+[debug] [35m[AndroidDriver][39m   bash arg: -c
+[debug] [35m[AndroidDriver][39m   bash arg: android.intent.category.LAUNCHER
+[debug] [35m[AndroidDriver][39m   bash arg: 1
+[debug] [35m[AndroidDriver][39m Events injected: 1
+[debug] [35m[AndroidDriver][39m ## Network stats: elapsed time=77ms (0ms mobile, 0ms wifi, 77ms not connected)
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.activateApp() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/appium/device/activate_app [39m[32m200[39m [90m1430 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (8ba7ddfd)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/source' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/source] to [GET http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/source] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2154\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.samsung.ecomm\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2154]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.samsung.ecomm\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2154]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.samsung.e...
+[35m[WD Proxy][39m Replacing sessionId a63182e2-f306-4ab5-bc6c-7548496ed766 with 8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/source [39m[32m200[39m [90m2763 ms - 37085[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (8ba7ddfd)][39m Calling AppiumDriver.getScreenshot() with args: ["8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d"]
 [debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
-[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/screenshot] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N13fFzlmfbx65zp6rYk94KNjXvHDdt000loMQkkIQnZ7Gbf9N3spkKS\nTTabN8mGQAJJCCThJexC6BDAgI0xprlT3avc1W1ZZWbOOe8fksYz6pKn6Ei/Lx8+1pw55RkbM2eu\nuZ/7MbYdrnQEAAAAAADgYmamBwAAAAAAAHC6CDgAAAAAAIDrEXAAAAAAAADXI+AAAAAAAACuR8AB\nAAAAAABcj4ADAAAAAAC4HgEHAAAAAABwPQIOAAAAAADgegQcAAAAAADA9Qg4AAAAAACA6xFwAAAA\nAAAA1yPgAAAAAAAArufN9ADcwHEcVZSX6Y3Vr2rn9i2qqqhscz/TY2rQ4CGaNmu2Zp89X6GsLBmG\nkebRAgAAAADQ/xjbDlc6mR5EbxWNRPTME4/qvc0bZUUtOU7Xf6sMw1AgFNSFSy/T/EVLCDoAAAAA\nAEghAo422LatB++/V7u2b+tWqNGW5mDj9v/6hUyTGUHonRzHkW1ZsmyrVZhnmqY8Xo9M0yOPx5PB\nUQIAACCZ6uvqdPTwIZ04cVy1J0+qrq5OoVBIWdnZys3N0+ChwxQMhTI9zKSrqqxQwYCBmR4GUoAp\nKi3s271Lf/r93bJtOynna/6guGn9Ws2ZtyAp50TqHdi/T3+4645uH2cYhs6aNFnLPvlp+Xz+FIws\neRzHkRWNqr6+XvV1daqsKFd1dZUqyssUbghLkkzTUCiUpcLiYuXl56tgwEAFAkH5AwHCDgAAAJc5\ndKBEu3du1+6dO3Xk0EHVnDjR6TE5ubkaMmy4xo4bp7HjJ2jY8BFpGGnqvP36a6ooL9PlH7k200NB\nClDBEeepRx/WxrVvn3bVRluy...
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N13fFzlmfbx65zp6rYk94KNjXvHDdt000loMQkkIQnZ7Gbf9N3spkKS\nTTabN8mGQAJJCCThJexC6BDAgI0xprlT3avc1W1ZZWbOOe8fksYz6pKn6Ei/Lx8+1pw55RkbM2eu\nuZ/7MbYdrnQEAAAAAADgYmamBwAAAAAAAHC6CDgAAAAAAIDrEXAAAAAAAADXI+AAAAAAAACuR8AB\nAAAAAABcj4ADAAAAAAC4HgEHAAAAAABwPQIOAAAAAADgegQcAAAAAADA9Qg4AAAAAACA6xFwAAAA\nAAAA1yPgAAAAAAAArufN9ADcwHEcVZSX6Y3Vr2rn9i2qqqhscz/TY2rQ4CGaNmu2Zp89X6GsLBmG\nkebRAgAAAADQ/xjbDlc6mR5EbxWNRPTME4/qvc0bZUUtOU7Xf6sMw1AgFNSFSy/T/EVLCDoAAAAA\nAEghAo422LatB++/V7u2b+tWqNGW5mDj9v/6hUyTGUHonRzHkW1ZsmyrVZhnmqY8Xo9M0yOPx5PB\nUQIAACCZ6uvqdPTwIZ04cVy1J0+qrq5OoVBIWdnZys3N0+ChwxQMhTI9zKSrqqxQwYCBmR4GUoAp\nKi3s271Lf/r93bJtOynna/6guGn9Ws2ZtyAp50TqHdi/T3+4645uH2cYhs6aNFnLPvlp+Xz+FIws\neRzHkRWNqr6+XvV1daqsKFd1dZUqyssUbghLkkzTUCiUpcLiYuXl56tgwEAFAkH5AwHCDgAAAJc5\ndKBEu3du1+6dO3Xk0EHVnDjR6TE5ubkaMmy4xo4bp7HjJ2jY8BFpGGnqvP36a6ooL9PlH7k200NB\nClDBEeepRx/WxrVvn3bVRluysrP1rR/8WJJUXlaqwqLipF8DybF/7x798bd3nvZ5vv3DnyiUlZWE\nESWfFY...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/screenshot [39m[32m200[39m [90m812 ms - 176974[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15eJT1vf//1z2TyZ6QHQgJEGQPi2yCsiiiUAoeC4pKjz3l1x6kWq3t\nsdZj6Wl76lI91rb+qrQWtT21VpGqFcQFrOybENmXgCzZCGRfJ8ss9/cPrswhJEASMpncyfNxXVxm\n7rnvz+c9YRK5X/NZDNM0TQEAAAAAAFiYLdAFAAAAAAAAXC0CDgAAAAAAYHkEHAAAAAAAwPIIOAAA\nAAAAgOURcAAAAAAAAMsj4AAAAAAAAJZHwAEAAAAAACyPgAMAAAAAAFgeAQcAAAAAALA8Ag4AAAAA\nAGB5BBwAAAAAAMDyCDgAAAAAAIDlBQW6AOBCpmmqsLBQn376qQ4dOqTi4uJmz7Pb7erdu7euu+46\n3XDDDYqIiJBhGB1cLQAAAACgszBM0zQDXQTgcrn0t7/9Tbt27ZLb7VZr3paGYSgsLEy33Xabpk+f\nTtABAAAAAN0QAQcCyuv16sUXX9Thw4dbFWo0pyHYWLZsmWw2682+Mk1THo9HHo+nSchjs9kUFBQk\nu90uu90ewCoBAADQVTidTuXl5am8vFxVVVVyOp0KDw9XZGSkevTooT59+ig8PDzQZba74uJixcfH\nd0hfq1evvuzzQ4YM0eDBgzuklu6AKSoImOPHj+vXv/61vF5vu7TXEAhs27ZNU6ZMaZc2/c00Tbnd\nbtXU1MjpdKqoqEilpaUqLCxUXV2dpPPhRnh4uHr27KmYmBjFx8crNDRUoaGhhB0AAABosaysLB09\nelSZmZnKyclRRUXFFa+Jjo5WamqqhgwZomHDhqlv374dUKn/rF+/XoWFhbrrrrs6pL8PPvjgss8f\nO3ZMjzzySIfU0h0QcCAgXn/9...
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15eJT1vf//1z2TyZ6QHQgJEGQPi2yCsiiiUAoeC4pKjz3l1x6kWq3t\nsdZj6Wl76lI91rb+qrQWtT21VpGqFcQFrOybENmXgCzZCGRfJ8ss9/cPrswhJEASMpncyfNxXVxm\n7rnvz+c9YRK5X/NZDNM0TQEAAAAAAFiYLdAFAAAAAAAAXC0CDgAAAAAAYHkEHAAAAAAAwPIIOAAA\nAAAAgOURcAAAAAAAAMsj4AAAAAAAAJZHwAEAAAAAACyPgAMAAAAAAFgeAQcAAAAAALA8Ag4AAAAA\nAGB5BBwAAAAAAMDyCDgAAAAAAIDlBQW6AOBCpmmqsLBQn376qQ4dOqTi4uJmz7Pb7erdu7euu+46\n3XDDDYqIiJBhGB1cLQAAAACgszBM0zQDXQTgcrn0t7/9Tbt27ZLb7VZr3paGYSgsLEy33Xabpk+f\nTtABAAAAAN0QAQcCyuv16sUXX9Thw4dbFWo0pyHYWLZsmWw2682+Mk1THo9HHo+nSchjs9kUFBQk\nu90uu90ewCoBAADQVTidTuXl5am8vFxVVVVyOp0KDw9XZGSkevTooT59+ig8PDzQZba74uJixcfH\nd0hfq1evvuzzQ4YM0eDBgzuklu6AKSoImOPHj+vXv/61vF5vu7TXEAhs27ZNU6ZMaZc2/c00Tbnd\nbtXU1MjpdKqoqEilpaUqLCxUXV2dpPPhRnh4uHr27KmYmBjFx8crNDRUoaGhhB0AAABosaysLB09\nelSZmZnKyclRRUXFFa+Jjo5WamqqhgwZomHDhqlv374dUKn/rF+/XoWFhbrrrrs6pL8PPvjgss8f\nO3ZMjzzySIfU0h0QcCAgXn/9dW3duvWqR20057333vMFHAUFBUpKSmr3PtqD2+1WeXm5srOztX//\nfh07dk...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/screenshot [39m[32m200[39m [90m671 ms - 267692[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (9e6d42d2)][39m Driver proxy active, passing request on via HTTP proxy
-[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source' to command name 'getPageSource'
-[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/source] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2154\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.google.android.calculator\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[508,210][1047,792]\" displayed=\"true\">\r\n    <android.widget.FrameLayout index=\"0\" package=\"com.google.android.calculator\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[508,210][1047,792]\" displayed=\"true\">\r\n      <android.widget.ListView index=\"0\...
-[35m[WD Proxy][39m Replacing sessionId 062f0cac-e831-4880-86c3-8b9bb89a603f with 9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source [39m[32m200[39m [90m104 ms - 8777[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.getScreenshot() with args: ["9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
-[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
-[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/screenshot] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N13fFzlmfbx65zp6rYk94KNjXvHDdt000loMQkkIQnZ7Gbf9N3spkKS\nTTabN8mGQAJJCCThJexC6BDAgI0xprlT3avc1W1ZZWbOOe8fksYz6pKn6Ei/Lx8+1pw55RkbM2eu\nuZ/7MbYdrnQEAAAAAADgYmamBwAAAAAAAHC6CDgAAAAAAIDrEXAAAAAAAADXI+AAAAAAAACuR8AB\nAAAAAABcj4ADAAAAAAC4HgEHAAAAAABwPQIOAAAAAADgegQcAAAAAADA9Qg4AAAAAACA6xFwAAAA\nAAAA1yPgAAAAAAAArufN9ADcwHEcVZSX6Y3Vr2rn9i2qqqhscz/TY2rQ4CGaNmu2Zp89X6GsLBmG\nkebRAgAAAADQ/xjbDlc6mR5EbxWNRPTME4/qvc0bZUUtOU7Xf6sMw1AgFNSFSy/T/EVLCDoAAAAA\nAEghAo422LatB++/V7u2b+tWqNGW5mDj9v/6hUyTGUHonRzHkW1ZsmyrVZhnmqY8Xo9M0yOPx5PB\nUQIAACCZ6uvqdPTwIZ04cVy1J0+qrq5OoVBIWdnZys3N0+ChwxQMhTI9zKSrqqxQwYCBmR4GUoAp\nKi3s271Lf/r93bJtOynna/6guGn9Ws2ZtyAp50TqHdi/T3+4645uH2cYhs6aNFnLPvlp+Xz+FIws\neRzHkRWNqr6+XvV1daqsKFd1dZUqyssUbghLkkzTUCiUpcLiYuXl56tgwEAFAkH5AwHCDgAAAJc5\ndKBEu3du1+6dO3Xk0EHVnDjR6TE5ubkaMmy4xo4bp7HjJ2jY8BFpGGnqvP36a6ooL9PlH7k200NB\nClDBEeepRx/WxrVvn3bVRluy...
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N13fFzlmfbx65zp6rYk94KNjXvHDdt000loMQkkIQnZ7Gbf9N3spkKS\nTTabN8mGQAJJCCThJexC6BDAgI0xprlT3avc1W1ZZWbOOe8fksYz6pKn6Ei/Lx8+1pw55RkbM2eu\nuZ/7MbYdrnQEAAAAAADgYmamBwAAAAAAAHC6CDgAAAAAAIDrEXAAAAAAAADXI+AAAAAAAACuR8AB\nAAAAAABcj4ADAAAAAAC4HgEHAAAAAABwPQIOAAAAAADgegQcAAAAAADA9Qg4AAAAAACA6xFwAAAA\nAAAA1yPgAAAAAAAArufN9ADcwHEcVZSX6Y3Vr2rn9i2qqqhscz/TY2rQ4CGaNmu2Zp89X6GsLBmG\nkebRAgAAAADQ/xjbDlc6mR5EbxWNRPTME4/qvc0bZUUtOU7Xf6sMw1AgFNSFSy/T/EVLCDoAAAAA\nAEghAo422LatB++/V7u2b+tWqNGW5mDj9v/6hUyTGUHonRzHkW1ZsmyrVZhnmqY8Xo9M0yOPx5PB\nUQIAACCZ6uvqdPTwIZ04cVy1J0+qrq5OoVBIWdnZys3N0+ChwxQMhTI9zKSrqqxQwYCBmR4GUoAp\nKi3s271Lf/r93bJtOynna/6guGn9Ws2ZtyAp50TqHdi/T3+4645uH2cYhs6aNFnLPvlp+Xz+FIws\neRzHkRWNqr6+XvV1daqsKFd1dZUqyssUbghLkkzTUCiUpcLiYuXl56tgwEAFAkH5AwHCDgAAAJc5\ndKBEu3du1+6dO3Xk0EHVnDjR6TE5ubkaMmy4xo4bp7HjJ2jY8BFpGGnqvP36a6ooL9PlH7k200NB\nClDBEeepRx/WxrVvn3bVRluysrP1rR/8WJJUXlaqwqLipF8DybF/7x798bd3nvZ5vv3DnyiUlZWE\nESWfFY...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/screenshot [39m[32m200[39m [90m539 ms - 176974[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (9e6d42d2)][39m Driver proxy active, passing request on via HTTP proxy
-[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source' to command name 'getPageSource'
-[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/source] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2154\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.google.android.calculator\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2154]\" displayed=\"true\">\r\n    <android.widget.FrameLayout index=\"0\" package=\"com.google.android.calculator\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2154]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" p...
-[35m[WD Proxy][39m Replacing sessionId 062f0cac-e831-4880-86c3-8b9bb89a603f with 9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/source [39m[32m200[39m [90m185 ms - 19688[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.getScreenshot() with args: ["9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
-[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
-[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/screenshot] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N13nN3VYef9771T1dtIQgIhOqJL9G4bTDHGBdvBa3BCEifZ9eu1zjq7\nm2c32cRe58lusk+chGDHTtySeG0nJo67Ta+mFyGbKkAS6nXUNZKm3Pv8ITSWQKA2RQe93//A3PmV\ncxEC3c/8zjmV2UvX1AMAAABQsOpgDwAAAABgfwkcAAAAQPEEDgAAAKB4AgcAAABQPIEDAAAAKJ7A\nAQAAABRP4AAAAACKJ3AAAAAAxRM4AAAAgOIJHAAAAEDxBA4AAACgeAIHAAAAULzGwR5ACer1ela3\nr8pD99+Xl198PmtXr9nlcdWGaiZMPCSnzDg9p595ToYMHZpKpTLAowUAAICDT2X20jX1wR7Egaq7\nqys/+t538vSsmenp7km9vuf/qCqVSlqGtOaSy67MORdcJHQAAABAPxI4dqFWq+UbX/ty5rw4e6+i\nxq5sDxuf/vPPplo1I4gDU71eT62nJz21ntfFvGq1mobGhlSrDWloaBjEUQIA0Je2bN6c5UuXZMOG\n9enYtCmbN2/OkCFDMnTYsIwYMTITJ01O65Ahgz3MPrd2zeqMHjN2sIdBPzBF5TXmz52Tf/j7L6RW\nq/XJ9bZ/UHzqicdyxtnn9sk16X+LFszPlz53416fV6lUctwJJ+baj/5ampqa+2Fkfader6enuztb\ntmzJls2bs2Z1e9atW5vV7avSubUzSVKtVjJkyNCMGz8+I0eNyugxY9PS0prmlhaxAwCgMEsWLczc\nl1/M3JdfzrIli7Nxw4bdnjN8xIgcMvnQHHXMMTnq2OMz+dDDBmCk/efRB3+W1e2r8q73XjPYQ6Ef\neIJjBz/4zrcz87FH9/upjV0Z...
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N13nN3VYef9771T1dtIQgIhOqJL9G4bTDHGBdvBa3BCEifZ9eu1zjq7\nm2c32cRe58lusk+chGDHTtySeG0nJo67Ta+mFyGbKkAS6nXUNZKm3Pv8ITSWQKA2RQe93//A3PmV\ncxEC3c/8zjmV2UvX1AMAAABQsOpgDwAAAABgfwkcAAAAQPEEDgAAAKB4AgcAAABQPIEDAAAAKJ7A\nAQAAABRP4AAAAACKJ3AAAAAAxRM4AAAAgOIJHAAAAEDxBA4AAACgeAIHAAAAULzGwR5ACer1ela3\nr8pD99+Xl198PmtXr9nlcdWGaiZMPCSnzDg9p595ToYMHZpKpTLAowUAAICDT2X20jX1wR7Egaq7\nqys/+t538vSsmenp7km9vuf/qCqVSlqGtOaSy67MORdcJHQAAABAPxI4dqFWq+UbX/ty5rw4e6+i\nxq5sDxuf/vPPplo1I4gDU71eT62nJz21ntfFvGq1mobGhlSrDWloaBjEUQIA0Je2bN6c5UuXZMOG\n9enYtCmbN2/OkCFDMnTYsIwYMTITJ01O65Ahgz3MPrd2zeqMHjN2sIdBPzBF5TXmz52Tf/j7L6RW\nq/XJ9bZ/UHzqicdyxtnn9sk16X+LFszPlz53416fV6lUctwJJ+baj/5ampqa+2Fkfader6enuztb\ntmzJls2bs2Z1e9atW5vV7avSubUzSVKtVjJkyNCMGz8+I0eNyugxY9PS0prmlhaxAwCgMEsWLczc\nl1/M3JdfzrIli7Nxw4bdnjN8xIgcMvnQHHXMMTnq2OMz+dDDBmCk/efRB3+W1e2r8q73XjPYQ6Ef\neIJjBz/4zrcz87FH9/upjV0ZOmxY/vv//NMkSfuqlRnXNr7P70HfWPDKvHzlb2/a7+v8wWf+V4YM\nHdoHI+...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/screenshot [39m[32m200[39m [90m470 ms - 143164[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '0' or . = '0') and @resource-id = 'com.google.android.calculator:id/digit_0']"}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.Button' and (@text = '0' or . = '0') and @resource-id = 'com.google.android.calculator:id/digit_0']","9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Do you have a device to trade-in?' or . = 'Do you have a device to trade-in?') and @resource-id = '']"}[39m
+[debug] [35m[W3C (8ba7ddfd)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.TextView' and (@text = 'Do you have a device to trade-in?' or . = 'Do you have a device to trade-in?') and @resource-id = '']","8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d"]
 [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
 [debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
 [debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.Button' and (@text = '0' or . = '0') and @resource-id = 'com.google.android.calculator:id/digit_0']","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":[{"ELEMENT":"00000000-0000-011d-ffff-ffff00000065","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff00000065"}]}
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff00000065","ELEMENT":"00000000-0000-011d-ffff-ffff00000065"}]
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements [39m[32m200[39m [90m291 ms - 139[39m
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.TextView' and (@text = 'Do you have a device to trade-in?' or . = 'Do you have a device to trade-in?') and @resource-id = '']","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":[{"ELEMENT":"00000000-0000-00df-0000-298d0000000f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00df-0000-298d0000000f"}]}
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00df-0000-298d0000000f","ELEMENT":"00000000-0000-00df-0000-298d0000000f"}]
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/elements [39m[32m200[39m [90m1740 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '+' or . = '+') and @resource-id = 'com.google.android.calculator:id/op_add']"}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.Button' and (@text = '+' or . = '+') and @resource-id = 'com.google.android.calculator:id/op_add']","9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Samsung Trade-in' or . = 'Samsung Trade-in') and @resource-id = '']"}[39m
+[debug] [35m[W3C (8ba7ddfd)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.TextView' and (@text = 'Samsung Trade-in' or . = 'Samsung Trade-in') and @resource-id = '']","8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d"]
 [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
 [debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
 [debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.Button' and (@text = '+' or . = '+') and @resource-id = 'com.google.android.calculator:id/op_add']","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":[{"ELEMENT":"00000000-0000-011d-ffff-ffff00000064","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff00000064"}]}
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff00000064","ELEMENT":"00000000-0000-011d-ffff-ffff00000064"}]
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements [39m[32m200[39m [90m279 ms - 139[39m
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.TextView' and (@text = 'Samsung Trade-in' or . = 'Samsung Trade-in') and @resource-id = '']","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":[{"ELEMENT":"00000000-0000-00df-0000-29860000000f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00df-0000-29860000000f"}]}
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00df-0000-29860000000f","ELEMENT":"00000000-0000-00df-0000-29860000000f"}]
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/elements [39m[32m200[39m [90m698 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '5' or . = '5') and @resource-id = 'com.google.android.calculator:id/digit_5']"}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.Button' and (@text = '5' or . = '5') and @resource-id = 'com.google.android.calculator:id/digit_5']","9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":1000}[39m
+[debug] [35m[W3C (8ba7ddfd)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,1000,"8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":1000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 1000ms
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Samsung Trade-in' or . = 'Samsung Trade-in') and @resource-id = '']"}[39m
+[debug] [35m[W3C (8ba7ddfd)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.TextView' and (@text = 'Samsung Trade-in' or . = 'Samsung Trade-in') and @resource-id = '']","8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d"]
 [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
+[debug] [35m[BaseDriver][39m Waiting up to 1000 ms for condition
 [debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.Button' and (@text = '5' or . = '5') and @resource-id = 'com.google.android.calculator:id/digit_5']","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":[{"ELEMENT":"00000000-0000-011d-ffff-ffff0000005e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff0000005e"}]}
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff0000005e","ELEMENT":"00000000-0000-011d-ffff-ffff0000005e"}]
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements [39m[32m200[39m [90m295 ms - 139[39m
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.TextView' and (@text = 'Samsung Trade-in' or . = 'Samsung Trade-in') and @resource-id = '']","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":[{"ELEMENT":"00000000-0000-00df-0000-29860000000f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00df-0000-29860000000f"}]}
+[debug] [35m[W3C (8ba7ddfd)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00df-0000-29860000000f","ELEMENT":"00000000-0000-00df-0000-29860000000f"}]
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/elements [39m[32m200[39m [90m604 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '=' or . = '=') and @resource-id = 'com.google.android.calculator:id/eq']"}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.Button' and (@text = '=' or . = '=') and @resource-id = 'com.google.android.calculator:id/eq']","9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.Button' and (@text = '=' or . = '=') and @resource-id = 'com.google.android.calculator:id/eq']","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":[{"ELEMENT":"00000000-0000-011d-ffff-ffff00000068","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff00000068"}]}
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff00000068","ELEMENT":"00000000-0000-011d-ffff-ffff00000068"}]
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements [39m[32m200[39m [90m224 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '1' or . = '1') and @resource-id = 'com.google.android.calculator:id/digit_1']"}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.Button' and (@text = '1' or . = '1') and @resource-id = 'com.google.android.calculator:id/digit_1']","9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
-[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
-[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.Button' and (@text = '1' or . = '1') and @resource-id = 'com.google.android.calculator:id/digit_1']","context":"","multiple":true}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":[{"ELEMENT":"00000000-0000-011d-ffff-ffff00000061","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff00000061"}]}
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-011d-ffff-ffff00000061","ELEMENT":"00000000-0000-011d-ffff-ffff00000061"}]
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb/elements [39m[32m200[39m [90m271 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/element/00000000-0000-00df-0000-29860000000f/location[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (9e6d42d2)][39m Calling AppiumDriver.deleteSession() with args: ["9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb"]
-[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1728918618033 (22:10:18 GMT+0700 (Western Indonesia Time))
-[35m[Appium][39m Removing session 9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb from our master session list
-[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
-[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
-[debug] [35m[WD Proxy][39m Matched '/' to command name 'deleteSession'
-[debug] [35m[WD Proxy][39m Proxying [DELETE /] to [DELETE http://127.0.0.1:52410/wd/hub/session/062f0cac-e831-4880-86c3-8b9bb89a603f] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"062f0cac-e831-4880-86c3-8b9bb89a603f","value":null}
-[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.google.android.calculator'
-[debug] [35m[Logcat][39m Stopping logcat capture
-[debug] [35m[ADB][39m Removing forwarded port socket connection: 52410 
-[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:52410'
-[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
-[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[35m[W3C (8ba7ddfd)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/element/00000000-0000-00df-0000-29860000000f/location' to command name 'getLocation'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/element/00000000-0000-00df-0000-29860000000f/location] to [GET http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/element/00000000-0000-00df-0000-29860000000f/location] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":{"x":43,"y":837}}
+[35m[WD Proxy][39m Replacing sessionId a63182e2-f306-4ab5-bc6c-7548496ed766 with 8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/element/00000000-0000-00df-0000-29860000000f/location [39m[32m200[39m [90m81 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/element/00000000-0000-00df-0000-29860000000f/size[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (8ba7ddfd)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/element/00000000-0000-00df-0000-29860000000f/size' to command name 'getSize'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/element/00000000-0000-00df-0000-29860000000f/size] to [GET http://127.0.0.1:8209/wd/hub/session/a63182e2-f306-4ab5-bc6c-7548496ed766/element/00000000-0000-00df-0000-29860000000f/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a63182e2-f306-4ab5-bc6c-7548496ed766","value":{"height":77,"width":496}}
+[35m[WD Proxy][39m Replacing sessionId a63182e2-f306-4ab5-bc6c-7548496ed766 with 8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d/element/00000000-0000-00df-0000-29860000000f/size [39m[32m200[39m [90m81 ms - 86[39m
+[35m[HTTP][39m [90m[39m
 [debug] [35m[Instrumentation][39m .
-[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1728918618758 (22:10:18 GMT+0700 (Western Indonesia Time))
-[debug] [35m[W3C (9e6d42d2)][39m Received response: null
-[debug] [35m[W3C (9e6d42d2)][39m But deleting session, so not returning
-[debug] [35m[W3C (9e6d42d2)][39m Responding to client with driver.deleteSession() result: null
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/9e6d42d2-3c37-43f8-9782-3ad4b1d62bcb [39m[32m200[39m [90m729 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[debug] [35m[Instrumentation][39m Time: 414.068
+[debug] [35m[Instrumentation][39m Time: 358.794
 [debug] [35m[Instrumentation][39m 
 [debug] [35m[Instrumentation][39m OK (1 test)
 [debug] [35m[Instrumentation][39m The process has exited with code 0
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session '8ba7ddfd-2b39-4180-81d5-d5da1faf1c5d' from our master session list
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.android.settings'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8209 
+[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8209'
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[debug] [35m[ADB][39m Running 'C:\Users\Nurul Handayani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
