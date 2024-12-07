@@ -15,14 +15,14 @@
       <guid>499fff7e-02f3-46c7-b519-95fb332f00d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Samsung Shop/Buka Shop dan Pilih Kategori Phone</testCaseId>
+      <testCaseId>Test Cases/Samsung Shop/Buka_Shop_dan_Pilih_Kategori_Phone</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1fbb2fb0-e624-4ac5-9b99-3acd60069f8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Samsung Shop/Pilih Phone dan lihat detail Phone</testCaseId>
+      <testCaseId>Test Cases/Samsung Shop/Pilih_Phone_dan_lihat_detail_Phone</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

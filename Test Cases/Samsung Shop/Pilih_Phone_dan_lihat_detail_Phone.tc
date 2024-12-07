@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Buka Shop dan Pilih Kategori Phone</name>
+   <name>Pilih_Phone_dan_lihat_detail_Phone</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5e71f3b6-9585-4dff-87e0-4cba1b645266</testCaseGuid>
+   <testCaseGuid>17bed6b2-9f96-41e1-8717-c80cbaea8641</testCaseGuid>
 </TestCaseEntity>
